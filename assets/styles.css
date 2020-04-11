@@ -1,0 +1,23 @@
+body, html {
+  height: 100%;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.wip {
+  color: grey;
+}
+
+@media (max-width: 960px) {
+  .img-cover {
+    max-height: 300px;
+  }
+  .book-cover {
+    margin-bottom: 1em;  
+  }
+}
+
+.article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

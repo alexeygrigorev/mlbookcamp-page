@@ -1,0 +1,31 @@
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <div class="container">
+    {% include header.html %}
+
+    <div class="row">
+      <div class="col-md-3 text-center book-cover">
+        <div>
+          <a href="http://bit.ly/mlbookcamp">
+            <img src="img/mlbookcamp-cover-small.jpg" class="img-cover img-fluid"/>
+          </a>
+        </div>
+        <div class="mt-2">
+          <a href="http://bit.ly/mlbookcamp" class="btn btn-sm btn-success">
+            <i class="fas fa-shopping-cart"></i> &nbsp; Buy on manning.com
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </div>
+
+</body>
