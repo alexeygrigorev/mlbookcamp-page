@@ -46,7 +46,7 @@ LinkedIn ([agrigorev](https://www.linkedin.com/in/agrigorev)).
 
 ### Articles
 
-* [CRISP-DM: The methodology for machine learning projects](/blog/crisp-dm)
+* [CRISP-DM: The methodology for machine learning projects](/article/crisp-dm)
 * <a href="#">Linear Regression</a>
 * <a href="#">ROC-Curves and AUC</a>
 * More in <a href="/articles">articles</a>

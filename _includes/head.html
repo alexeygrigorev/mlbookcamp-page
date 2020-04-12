@@ -15,5 +15,10 @@
   <script src="https://kit.fontawesome.com/c37fbeb327.js"></script>
 
   <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="stylesheet" href="/assets/syntax.css" />
+
+  {% if page.math == true %}
+    {% include mathjax.html %}
+  {% endif %}
 
 </head>
