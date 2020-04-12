@@ -15,15 +15,15 @@ to work as a data scientist or machine learning engineer.
 ### Table of Contents
 
 <ul>
-    <li>1. Introduction to Machine Learning</li>
+    <li>1. Introduction to machine learning</li>
     <li>2. Machine learning for regression</li>
-    <li>3. Machine Learning for classification</li>
+    <li>3. Machine learning for classification</li>
     <li><span class="wip">4. Evaluation metrics for classification *</span></li>
     <li><span class="wip">5. Deploying machine learning models *</span></li>
     <li><span class="wip">6. Decision trees and ensemble learning *</span></li>
     <li><span class="wip">7. Neural networks and deep learning *</span></li>
     <li><span class="wip">8. Serving deep learning models *</span></li>
-    <li><span class="wip">9. Working with Texts *</span></li>
+    <li><span class="wip">9. Working with texts *</span></li>
     <li><span class="wip">10. Getting Training Data *</span></li>
     <li>Appendix A. Installation</li>
     <li>Appendix B. Introduction to Python</li>
@@ -40,8 +40,8 @@ focused on machine learning. Currently, he works as a lead data scientist at the
 with content moderation and image models. He is the author of two other books: 
 <i>Mastering Java for Data Science</i> and <i>TensorFlow Deep Learning Projects</i>.
 
-For updates, follow Alexey on Twitter (<a href="https://twitter.com/Al_Grigor">@Al_Grigor</a>) and
-LinkedIn (<a href="https://www.linkedin.com/in/agrigorev">agrigorev</a>).
+For updates, follow Alexey on Twitter ([@Al_Grigor](https://twitter.com/Al_Grigor)) and
+LinkedIn ([agrigorev](https://www.linkedin.com/in/agrigorev)).
 
 
 ### Articles
