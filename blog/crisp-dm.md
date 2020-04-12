@@ -5,7 +5,7 @@ layout: article
 
 ---
 
-### CRISP-DM
+## CRISP-DM
 
 Cross-industry standard process for data mining, known as CRISP-DM,[1] is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model.[2]
 
@@ -13,7 +13,9 @@ In 2015, IBM released a new methodology called Analytics Solutions Unified Metho
 
 <img class="img-fluid" src="img/crisp-dm/crisp_dm.svg">
 
-### History
+## History
+### History of CRISP-DM
+
 CRISP-DM was conceived in 1996 and became a European Union project under the ESPRIT funding initiative in 1997. The project was led by five companies: Integral Solutions Ltd (ISL), Teradata, Daimler AG, NCR Corporation and OHRA, an insurance company.
 
 This core consortium brought different experiences to the project: ISL, later acquired and merged into SPSS. The computer giant NCR Corporation produced the Teradata data warehouse and its own data mining software. Daimler-Benz had a significant data mining team. OHRA was just starting to explore the potential use of data mining.
@@ -26,7 +28,7 @@ While many non-IBM data mining practitioners use CRISP-DM,[10][11][12] IBM is th
 
 Based on current research CRISP-DM is the most widely used form of data-mining model because of its various advantages which solved the existing problems in the data mining industries. Some of the drawbacks of this model is that it does not perform project management activities. The fact behind the success of CRISP-DM is that it is industry, tool, and application neutral.[13]
 
-### Major phases
+## Major phases
 
 Process diagram showing the relationship between the different phases of CRISP-DM
 CRISP-DM breaks the process of data mining into six major phases[14]:

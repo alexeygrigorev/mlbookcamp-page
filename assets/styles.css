@@ -7,13 +7,8 @@ body, html {
   color: grey;
 }
 
-@media (max-width: 960px) {
-  .img-cover {
-    max-height: 300px;
-  }
-  .book-cover {
-    margin-bottom: 1em;  
-  }
+.header {
+  font-size: 120%;
 }
 
 .content {
@@ -24,4 +19,16 @@ body, html {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (max-width: 960px) {
+  .img-cover {
+    max-height: 300px;
+  }
+  .book-cover {
+    margin-bottom: 1em;
+  }
+  .content {
+    font-size: 120%;
+  }
 }
