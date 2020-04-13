@@ -1,6 +1,8 @@
 ---
 
-title: Machine Learning Bookcamp
+title: Articles &ndash; Machine Learning Bookcamp
+description: Articles based on Machine Learning Bookcamp
+image: img/mlbookcamp-cover-small.jpg
 layout: home
 
 ---
