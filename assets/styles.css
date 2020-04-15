@@ -32,3 +32,19 @@ body, html {
     font-size: 120%;
   }
 }
+
+.article-end {
+  font-size: 80%;
+}
+
+.article-divider::before {
+  content: "...";
+}
+
+.article-divider {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}

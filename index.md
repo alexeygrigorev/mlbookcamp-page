@@ -1,6 +1,10 @@
 ---
 
 title: Machine Learning Bookcamp
+description:
+  "Machine Learning Bookcamp: learn machine learning by doing projects and get the skills needed
+  to work as a data scientist or machine learning engineer."
+image: img/mlbookcamp-cover-small.jpg
 layout: home
 
 ---
@@ -57,3 +61,12 @@ LinkedIn ([agrigorev](https://www.linkedin.com/in/agrigorev)).
 * <a href="#">ML for Product Managers</a>
 * <a href="#">ML Bookcamp: Fundamentals</a>
 * More in <a href="/courses">courses</a>
+
+
+### Subscribe
+
+To stay informed about the recent news about the book join our newsletter
+
+{% include subscribe.html %}
+
+We will send you updates when new chapters become available and when new articles or course videos are published.
