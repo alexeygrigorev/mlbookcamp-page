@@ -9,5 +9,14 @@ layout: home
 
 ### Courses
 
-* <a href="#">ML for Product Managers</a>
-* <a href="#">ML Bookcamp: Fundamentals</a>
+There are multiple courses based on the book
+
+* ML for Product Managers (under development)
+* ML Bookcamp: Fundamentals (under development)
+
+
+### Subscribe
+
+Join our newsletter to be informed about new content
+
+{% include subscribe.html %}

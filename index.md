@@ -22,13 +22,13 @@ to work as a data scientist or machine learning engineer.
     <li>1. Introduction to machine learning</li>
     <li>2. Machine learning for regression</li>
     <li>3. Machine learning for classification</li>
-    <li><span class="wip">4. Evaluation metrics for classification *</span></li>
+    <li>4. Evaluation metrics for classification</li>
     <li><span class="wip">5. Deploying machine learning models *</span></li>
     <li><span class="wip">6. Decision trees and ensemble learning *</span></li>
     <li><span class="wip">7. Neural networks and deep learning *</span></li>
     <li><span class="wip">8. Serving deep learning models *</span></li>
     <li><span class="wip">9. Working with texts *</span></li>
-    <li><span class="wip">10. Getting Training Data *</span></li>
+    <li><span class="wip">10. Getting training data *</span></li>
     <li>Appendix A. Installation</li>
     <li>Appendix B. Introduction to Python</li>
     <li>Appendix C. Introduction to NumPy</li>
@@ -50,17 +50,17 @@ LinkedIn ([agrigorev](https://www.linkedin.com/in/agrigorev)).
 
 ### Articles
 
+We extracted the core concepts from the book into articles
+
 * [CRISP-DM: The methodology for machine learning projects](/article/crisp-dm)
-* <a href="#">Linear Regression</a>
-* <a href="#">ROC-Curves and AUC</a>
-* More in <a href="/articles">articles</a>
+* More in [articles](/articles)
 
 
 ### Courses 
 
-* <a href="#">ML for Product Managers</a>
-* <a href="#">ML Bookcamp: Fundamentals</a>
-* More in <a href="/courses">courses</a>
+There are some courses based on the book. They are now under active development
+
+* More in [courses](/courses)
 
 
 ### Subscribe
