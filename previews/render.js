@@ -8,12 +8,10 @@ const config = require('./' + configFile);
 
 console.log("config:", config);
 
-const { title, subtitle, time, output } = config;
+const { title, subtitle, output } = config;
 
 // const title = "CRISP-DM";
 // const subtitle = "Machine Learning Process";
-// const time = "6 minutes read";
-
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -30,11 +28,10 @@ const { title, subtitle, time, output } = config;
   await page.goto('file://' + fileName);
   await page.waitForSelector('#title');
 
-  await page.evaluate(({title, subtitle, time}) => {
-    document.getElementById('time').textContent = time;
+  await page.evaluate(({title, subtitle}) => {
     document.getElementById('title').textContent = title;
     document.getElementById('subtitle').textContent = subtitle;
-  }, { title, subtitle, time });
+  }, { title, subtitle });
 
   await page.screenshot({ 
     path: output,
