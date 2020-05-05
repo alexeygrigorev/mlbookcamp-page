@@ -36,7 +36,10 @@ const { title, subtitle, time, output } = config;
     document.getElementById('subtitle').textContent = subtitle;
   }, { title, subtitle, time });
 
-  await page.screenshot({ path: output });
+  await page.screenshot({ 
+    path: output,
+    quality: 85
+  });
  
   await browser.close();
 })();
