@@ -1,6 +1,6 @@
 ---
 
-title: Courses &ndash; Machine Learning Bookcamp
+title: Courses
 description: Courses based on Machine Learning Bookcamp
 image: img/mlbookcamp-cover-small.jpg
 layout: home
@@ -11,8 +11,8 @@ layout: home
 
 There are multiple courses based on the book
 
-* ML for Product Managers (under development)
-* ML Bookcamp: Fundamentals (under development)
+* [ML for Product Managers](/course/ml-pm)
+* ML Bookcamp: Fundamentals (coming soon)
 
 
 ### Subscribe

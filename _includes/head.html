@@ -1,29 +1,36 @@
 <head>
 
   {% if site.google_analytics %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
   {% endif %}
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:locale" content="en_US">
 
-  <title>{{ page.title }}</title>
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="twitter:title" content="{{ page.title }}">
-  <meta name="title" content="{{ page.title }}">
+  {% if page.name == 'index.md' %}
+    <title>{{ page.title | default: site.name }}</title>
+    <meta property="og:title" content="{{ page.title | default: site.name }}">
+    <meta property="twitter:title" content="{{ page.title | default: site.name }}">
+    <meta name="title" content="{{ page.title | default: site.name }}">
+  {% else %}
+    <title>{{ page.title }} &ndash; {{ site.name }}</title>
+    <meta property="og:title" content="{{ page.title }} &ndash; {{ site.name }}">
+    <meta property="twitter:title" content="{{ page.title }} &ndash; {{ site.name }}">
+    <meta name="title" content="{{ page.title }} &ndash; {{ site.name }}">
+  {% endif %}
 
-  <meta property="twitter:site" content="@Al_Grigor">
+  <meta property="twitter:site" content="{{ site.twitter }}">
   <meta property="twitter:card" content="summary_large_image" />
 
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Machine Learning Bookcamp">
+  <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 

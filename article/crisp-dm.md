@@ -1,8 +1,8 @@
 ---
 
-title: CRISP-DM &ndash; Machine Learning Bookcamp
-description: CRISP-DM (TODO)
-image: article/img/cover/crisp-dm.jpg
+title: CRISP-DM
+description: CRISP-DM 
+image: article/img/cover/crisp-dm-new.jpg
 layout: article
 
 ---

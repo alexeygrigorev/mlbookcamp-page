@@ -1,6 +1,6 @@
 ---
 
-title: Machine Learning Bookcamp
+title: Linear Regression
 layout: article
 math: true
 

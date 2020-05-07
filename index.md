@@ -60,6 +60,7 @@ We extracted the core concepts from the book into articles
 
 There are some courses based on the book. They are now under active development
 
+* [ML for Product Managers](/course/ml-pm)
 * More in [courses](/courses)
 
 
