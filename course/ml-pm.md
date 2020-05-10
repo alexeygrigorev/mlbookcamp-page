@@ -26,10 +26,11 @@ for Analytics and Product Managers
 ### 2. Processes and roles
 
 * Spam prediction
-* CRISP-DM - a methodology for machine learning projects
+* [CRISP-DM &ndash; a methodology for machine learning projects](/article/crisp-dm)
 * Roles in the team
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/2WpnuE7vPO2Feu" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" class="presentation" allowfullscreen> </iframe>
+
 
 &nbsp;
 
