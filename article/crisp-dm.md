@@ -1,7 +1,7 @@
 ---
 
 title: CRISP-DM
-description: CRISP-DM 
+description: CRISP-DM — a framework for organizing machine learning projects
 image: article/img/cover/crisp-dm-new.jpg
 layout: article
 
