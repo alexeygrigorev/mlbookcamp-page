@@ -17,6 +17,10 @@ This article covers:
 *   Generating NumPy arrays randomly
 *   Operations with NumPy arrays: element-wise operations, summarizing operations, sorting and filtering
 
+
+To go through this tutorial, you need to have Python and Jupyter Notebook.
+The easiest way to get them is to use [Anaconda](https://www.anaconda.com/).
+
 For a Python refreshes, check [Introduction to Python](/article/python).
 
 &nbsp;
@@ -31,9 +35,6 @@ NumPy comes pre-installed in Anaconda distribution of NumPy, so if you use it, y
 ```bash
 pip install numpy
 ```
-
-
-To experiment with NumPy, let’s create a new Jupyter notebook and name it “appendix-c-numpy”.
 
 In order to use NumPy, we need to import it. That’s why in the first cell we write the import:
 
