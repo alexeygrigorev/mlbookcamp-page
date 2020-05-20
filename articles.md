@@ -23,7 +23,7 @@ These articles are based on the core concepts from the book
 * Creating an AWS account (coming soon)
 * Renting an EC2 instances (coming soon)
 * [Introduction to Python](/article/python)
-* Introduction to NumPy (coming soon)
+* [Introduction to NumPy](/article/numpy)
 * Linear algebra refresher (coming soon)
 * Introduction to Pandas (coming soon)
 
