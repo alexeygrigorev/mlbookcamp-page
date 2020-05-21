@@ -233,7 +233,7 @@ This code produces 11 numbers from 0 till 1:
 <img class="img-fluid" src="img/numpy/linspace.png">
 
 
-Usual Python lists can contain elements of any time. This is not the case for NumPy arrays: all elements of an array must have the same type. These types are called _dtypes_.
+Usual Python lists can contain elements of any type. This is not the case for NumPy arrays: all elements of an array must have the same type. These types are called _dtypes_.
 
 There are four broad categories of dtypes:
 
