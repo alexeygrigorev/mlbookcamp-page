@@ -9,7 +9,7 @@ layout: article
 
 # Introduction to Python
 
-<img src="img/python/python_logo.png">
+<img class="img-fluid" src="img/python/python_logo.png">
 
 
 In this article, we’ll cover the basics of Python:
@@ -56,7 +56,7 @@ It prints:
 To execute the code, you can put each code snippet in a separate jupyter notebook cell and then execute it. For executing the code in the cell, you can press the “Run” button, or use “Shift+Enter” hotkey 
 
 
-<img src="img/python/code1.png">
+<img class="img-fluid" src="img/python/code1.png">
 
 
 When we pass multiple arguments to `print`, like in the example above, it adds a space between the arguments when printing.
@@ -573,7 +573,7 @@ last3 = numbers[2:]
 The list `last3` will contain the last three elements: `[3, 5, 7]` .
 
 
-<img src="img/python/b_slicing.svg">
+<img class="img-fluid" src="img/python/b_slicing.svg">
 
 &nbsp;
 
