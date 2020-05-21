@@ -21,7 +21,7 @@ This article covers:
 To go through this tutorial, you need to have Python and Jupyter Notebook.
 The easiest way to get them is to use [Anaconda](https://www.anaconda.com/).
 
-For a Python refreshes, check [Introduction to Python](/article/python).
+For a Python refresher, check [Introduction to Python](/article/python).
 
 &nbsp;
 

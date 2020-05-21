@@ -183,7 +183,7 @@ print("n = %.2f" % n)
 
 This will round the float to the second decimal point when formatting the string, so we will see “0.01” when executing the code.
 
-There are many options for formatting strings, and also other ways of formatting. For example, there’s also the so-called “new” way of formatting using the `string.format` method, which we won’t cover in this appendix. You can read more about these formatting options at [https://pyformat.info](https://pyformat.info/) or in the official documentation.
+There are many options for formatting strings, and also other ways of formatting. For example, there’s also the so-called “new” way of formatting using the `string.format` method, which we won’t cover here. You can read more about these formatting options at [https://pyformat.info](https://pyformat.info/) or in the official documentation.
 
 &nbsp;
 
