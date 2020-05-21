@@ -52,7 +52,7 @@ We’ll start exploring NumPy from its core data structure: NumPy array.
 
 ### NumPy arrays
 
-NumPy arrays are similar to Python lists, but they are better optimized for number crunching tasks - like machine learning.
+NumPy arrays are similar to Python lists, but they are better optimized for number crunching tasks &ndash; like machine learning.
 
 To create an array of a predefined size filled with zeros, we use the `np.zeros` function:
 
@@ -223,9 +223,9 @@ This function takes three parameters:
 
 
 
-1. The starting number - in our case, we want to start from 0
-2. The last number - we want to finish with 1
-3. The length of the resulting array - in our case, we want 11 numbers in the array.
+1. The starting number &ndash; in our case, we want to start from 0
+2. The last number &ndash; we want to finish with 1
+3. The length of the resulting array &ndash; in our case, we want 11 numbers in the array.
 
 This code produces 11 numbers from 0 till 1:
 
@@ -238,10 +238,10 @@ Usual Python lists can contain elements of any type. This is not the case for Nu
 There are four broad categories of dtypes:
 
 
-*   Unsigned integers (`uint`) - integers that are always positive (or zero)
-*   Signed integers (`int`) - integers that can be positive and negative
-*   Floats (`float`) - real numbers
-*   Booleans (`bool`) - only True and False values
+*   Unsigned integers (`uint`) &ndash; integers that are always positive (or zero)
+*   Signed integers (`int`) &ndash; integers that can be positive and negative
+*   Floats (`float`) &ndash; real numbers
+*   Booleans (`bool`) &ndash; only True and False values
 
 There are multiple variations of each dtype depending on the number of bits used for representing the value in memory. 
 
@@ -381,7 +381,7 @@ We use a tuple “(5, 2)”, so it creates an array of zeros with 5 rows and 2 c
 <img class="img-fluid" src="img/numpy/zeros_2d.png">
 
 
-In the same way, we can use `np.ones` or `np.fill` - instead of a single number, we put in a tuple.
+In the same way, we can use `np.ones` or `np.fill` &ndash; instead of a single number, we put in a tuple.
 
 The dimensionality of an array is called _shape_. This is the first parameter we pass to the `np.zeros` function: it specifies how many rows and columns the array will have. To get the shape of an array, use the `shape` property:
 
@@ -574,7 +574,7 @@ arr = np.random.randn(5, 2)
 ```
 
 **Note**:
-Every time we generate a random array in this appendix, we make sure we fix the seed number before generating it, even if we don’t explicitly specify it in the code - we do it for ensuring consistency. We use “2” as the seed. There’s no particular reason for this number.
+Every time we generate a random array in this article, we fix the seed number (we use "2"), even if we don’t explicitly specify it in the code.
 
 
 To generate uniformly distributed random integers between 0 and 100 (exclusive), we can use `np.random.randint`:
@@ -597,7 +597,7 @@ array([[40, 15],
 ```
 
 
-Another quite useful feature is shuffling an array - rearranging the elements of an array in random order. For example, let’s create an array with a range and then shuffle it:
+Another quite useful feature is shuffling an array &ndash; rearranging the elements of an array in random order. For example, let’s create an array with a range and then shuffle it:
 
 
 ```python
@@ -661,7 +661,7 @@ array([0, 2, 4, 6, 8])
 ```
 
 
-Note that we don’t need to explicitly write any loops here to apply the multiplication operation individually to each element: NumPy does it for us. We can say that the multiplication operation is applied _element-wise_ - to all elements at once. The addition (“+”), subtraction (“-”) and division (“/”) operations are also element-wise and require no explicit loops.
+Note that we don’t need to explicitly write any loops here to apply the multiplication operation individually to each element: NumPy does it for us. We can say that the multiplication operation is applied _element-wise_ &ndash; to all elements at once. The addition (“+”), subtraction (“-”) and division (“/”) operations are also element-wise and require no explicit loops.
 
 Such element-wise operations are often called _vectorized_: the for loop happens internally in native code (written C and fortran), so the operations are very fast! 
 
@@ -687,7 +687,7 @@ array([-0.5, 1. , 2.5, 4. , 5.5])
 
 Note that the original array contains integers, but because we used the division operation, the result is an array with float numbers.
 
-Previously, our code involved an array and simple Python numbers. It’s also possible to do element-wise operations with two arrays - if they have the same shape. 
+Previously, our code involved an array and simple Python numbers. It’s also possible to do element-wise operations with two arrays &ndash; if they have the same shape.
 
 For example, suppose we have two arrays, one containing numbers from 0 to 4, and another containing some random noise: 
 
@@ -1265,7 +1265,7 @@ np.hstack([mat, mat])
 ```
 
 
-The result is another matrix where the original matrices are stacked horizontally - by columns:
+The result is another matrix where the original matrices are stacked horizontally &ndash; by columns:
 
 
 ```
@@ -1543,7 +1543,7 @@ To check if the first element is odd, we need to do the following:
 
 *   Select the first column of the matrix
 *   Apply the mod 2 operation (“%”) to all the elements to compute the remainder of the division by 2
-*   If the remainder is 1, then the number is odd, if 0 - the number is even
+*   If the remainder is 1, then the number is odd, if 0 &ndash; the number is even
 
 This translates to the following NumPy expression:
 
