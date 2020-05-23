@@ -307,7 +307,7 @@ For uint we have four types: `uint8`, `uint16`, `uint32`, `uint64` of size 8, 16
 In the case of floats, we have three types: `float16`, `float32,` and `float64`. The more bits we use, the more precise the float is. For most machine learning applications, `float32` is good enough: we typically don’t need great precision.
 You can check the full list of different dtypes in the [official documentation](https://docs.scipy.org/doc/numpy-1.13.0/user/basics.types.html).
 
-**Note**: In NumPy, the default float dtype is <code>float64</code>, which uses 64 bits (8 bytes) for each number. For most machine learning applications we don’t need such precision and we can reduce the memory footprint two times by using <code>float32</code> instead of <code>float64</code>.
+> **Note**: In NumPy, the default float dtype is <code>float64</code>, which uses 64 bits (8 bytes) for each number. For most machine learning applications we don’t need such precision and we can reduce the memory footprint two times by using <code>float32</code> instead of <code>float64</code>.
 
 
 When creating an array, we can specify the dtype. For example, when using `np.zeros` and `np.ones`, the default dtype is `float64`. We can specify the dtype when creating an array:
@@ -336,8 +336,8 @@ print(zeros[0])
 Since 300 is greater than 255, only the least significant bits are kept, so this code prints “44”. 
 
 
-**Warning**:
-Be careful when choosing the dtype for an array. If you accidentally choose a dtype that’s too narrow, NumPy won’t warn you when you put in a big number. It will simply truncate them.
+> **Warning**:
+> Be careful when choosing the dtype for an array. If you accidentally choose a dtype that’s too narrow, NumPy won’t warn you when you put in a big number. It will simply truncate them.
 
 
 Iterating over all elements of an array is similar to list: we simply can use a `for` loop:
@@ -573,8 +573,8 @@ If instead of uniform distribution, we want to sample from the standard normal d
 arr = np.random.randn(5, 2)
 ```
 
-**Note**:
-Every time we generate a random array in this article, we fix the seed number (we use "2"), even if we don’t explicitly specify it in the code.
+> **Note**:
+> Every time we generate a random array in this article, we fix the seed number (we use "2"), even if we don’t explicitly specify it in the code.
 
 
 To generate uniformly distributed random integers between 0 and 100 (exclusive), we can use `np.random.randint`:
@@ -661,12 +661,12 @@ array([0, 2, 4, 6, 8])
 ```
 
 
-Note that we don’t need to explicitly write any loops here to apply the multiplication operation individually to each element: NumPy does it for us. We can say that the multiplication operation is applied _element-wise_ &ndash; to all elements at once. The addition (“+”), subtraction (“-”) and division (“/”) operations are also element-wise and require no explicit loops.
+We don’t need to explicitly write any loops here to apply the multiplication operation individually to each element: NumPy does it for us. We can say that the multiplication operation is applied _element-wise_ &ndash; to all elements at once. The addition (“+”), subtraction (“-”) and division (“/”) operations are also element-wise and require no explicit loops.
 
 Such element-wise operations are often called _vectorized_: the for loop happens internally in native code (written C and fortran), so the operations are very fast! 
 
-**Note**:
-Whenever possible, use vectorized operations from NumPy instead of loops: they are always a magnitude faster. 
+> **Note**:
+> Whenever possible, use vectorized operations from NumPy instead of loops: they are always a magnitude faster. 
 
 
 In the previous code we used only one operation. It’s possible to apply multiple operations at once in one expression:
@@ -685,7 +685,7 @@ array([-0.5, 1. , 2.5, 4. , 5.5])
 ```
 
 
-Note that the original array contains integers, but because we used the division operation, the result is an array with float numbers.
+The original array contains integers, but because we used the division operation, the result is an array with float numbers.
 
 Previously, our code involved an array and simple Python numbers. It’s also possible to do element-wise operations with two arrays &ndash; if they have the same shape.
 
@@ -1388,7 +1388,7 @@ array([[0, 1, 2],
 ```
 
 
-Note that in this code we used the `T` property of `mat`. This is a matrix transposition operation, which changes rows of a matrix with columns:
+In this code we used the `T` property of `mat`. This is a matrix transposition operation, which changes rows of a matrix with columns:
 
 
 ```python

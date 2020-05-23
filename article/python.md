@@ -53,13 +53,13 @@ It prints:
 ```
 
 
-To execute the code, you can put each code snippet in a jupyter notebook cell and then execute it. For executing the code in the cell, press the “Run” button, or use “Shift+Enter” hotkey 
+To execute the code, you can put each code snippet in a cell of Jupyter Notebook and then execute it: press the “Run” button, or use “Shift+Enter” hotkey.
 
 
 <img class="img-fluid" src="img/python/code1.png">
 
 
-When we pass multiple arguments to `print`, like in the example above, it adds a space between the arguments when printing.
+When we pass multiple arguments to `print`, like in the example above, it adds a space between each arguments when printing.
 
 We can put multiple variables together with a special construction called _tuple_:
 
@@ -658,17 +658,18 @@ To create a set, we use curly braces:
 numbers = {1, 2, 3, 5, 7, 11, 13}
 ```
 
-Note: To create an empty set, we need to use `set`:
 
-```python
-empty_set = set()
-```
-
-Simply putting empty curly braces will create a dictionary - a collection that we cover later in this appendix:
-
-```python
-empty_dict = {}
-```
+> **Note**: To create an empty set, we need to use `set`:
+> 
+> ```python
+> empty_set = set()
+> ```
+> 
+> Simply putting empty curly braces will create a dictionary &ndash; a collection that we cover later in this appendix:
+> 
+> ```python
+> empty_dict = {}
+> ```
 
 
 Sets are faster than lists for checking if the collection contains an element. We use the “in” operator for checking it:
@@ -914,7 +915,9 @@ for (k, v) in words_to_numbers.items():
         result[k] = v * 10
 ```
 
-**Warning**: When learning about list comprehension it might be tempting to start using it everywhere. Typically it fits best for simple cases, but for more complex situations, for loops should be preferred over list comprehension for better code readability. If in doubt, use for loops.
+> **Warning**: When learning about list comprehension it might be tempting to start using it everywhere. Typically it fits best for simple cases, but for more complex situations, for loops should be preferred over list comprehension for better code readability.
+> 
+> If in doubt, use "for" loops.
 
 &nbsp;
 
@@ -1185,3 +1188,11 @@ As a result, we’ll see numbers from 0 to 5:
 *   List comprehension lets us concisely create and filter lists and other collections.
 *   To achieve code reusability, put the code in functions and classes. We can also organize the code in modules and import only the pieces we need.
 *   To install a Python package, we can use pip, which is a package manager for Python.
+
+
+&nbsp;
+
+
+## Read next
+
+* [Introduction to NumPy](/article/numpy)
