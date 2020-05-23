@@ -53,7 +53,7 @@ It prints:
 ```
 
 
-To execute the code, you can put each code snippet in a separate jupyter notebook cell and then execute it. For executing the code in the cell, you can press the “Run” button, or use “Shift+Enter” hotkey 
+To execute the code, you can put each code snippet in a jupyter notebook cell and then execute it. For executing the code in the cell, press the “Run” button, or use “Shift+Enter” hotkey 
 
 
 <img class="img-fluid" src="img/python/code1.png">
