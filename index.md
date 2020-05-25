@@ -44,8 +44,8 @@ focused on machine learning. Currently, he works as a lead data scientist at the
 with content moderation and image models. He is the author of two other books: 
 <i>Mastering Java for Data Science</i> and <i>TensorFlow Deep Learning Projects</i>.
 
-For updates, follow Alexey on Twitter ([@Al_Grigor](https://twitter.com/Al_Grigor)) and
-LinkedIn ([agrigorev](https://www.linkedin.com/in/agrigorev)).
+For updates, follow Alexey on Twitter (<a href="https://twitter.com/Al_Grigor" target="_blank">@Al_Grigor</a>) and
+LinkedIn (<a href="https://www.linkedin.com/in/agrigorev" target="_blank">agrigorev</a>).
 
 
 ### Articles
