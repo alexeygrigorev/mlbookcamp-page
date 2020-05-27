@@ -18,10 +18,10 @@ These articles are based on the core concepts from the book
 * [CRISP-DM: The methodology for machine learning projects](/article/crisp-dm)
 * Model selection  (coming soon)
 
-#### Prerequisites (optional)
+#### Prerequisites (optional
 
-* Creating an AWS account (coming soon)
-* Renting an EC2 instances (coming soon)
+* [Creating an AWS account](/article/aws)
+* [Renting an EC2 instance](/article/aws-ec2)
 * [Introduction to Python](/article/python)
 * [Introduction to NumPy](/article/numpy)
 * Linear algebra refresher (coming soon)

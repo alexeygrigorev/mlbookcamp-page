@@ -7,12 +7,9 @@ layout: article
 
 ---
 
-# Introduction to Python
-
 <img class="img-fluid" src="img/python/python_logo.png">
 
-
-In this article, we’ll cover the basics of Python:
+This article covers the basics of Python:
 
 *   Syntax: variables and control-flow structures
 *   Collections: lists, tuples, sets, and dictionaries
@@ -25,7 +22,6 @@ In this article, we’ll cover the basics of Python:
 To go through this tutorial, you need to have Python and Jupyter Notebook.
 The easiest way to get them is to use [Anaconda](https://www.anaconda.com/).
 
-&nbsp;
 
 ## Variables
 
@@ -185,13 +181,11 @@ This will round the float to the second decimal point when formatting the string
 
 There are many options for formatting strings, and also other ways of formatting. For example, there’s also the so-called “new” way of formatting using the `string.format` method, which we won’t cover here. You can read more about these formatting options at [https://pyformat.info](https://pyformat.info/) or in the official documentation.
 
-&nbsp;
 
 ## Control-flow
 
 There are three control-flow statements in Python: “if”, “for” and “while”. Let’s take a look at each of them.
 
-&nbsp;
 
 ### Conditions
 
@@ -238,7 +232,6 @@ This code will print the second statement:
 the second statement is true
 ```
 
-&nbsp;
 
 ### For loop
 
@@ -325,7 +318,6 @@ This code will skip the iterations when `i` is 5 or less, so it will print only 
 9
 ```
 
-&nbsp;
 
 ### While loop
 
@@ -356,13 +348,11 @@ In this code, we repeat the loop while the condition `cnt &lt;= 5` is `True`. On
 
 We can use the `break` and `continue` statements in while loops as well.
 
-&nbsp;
 
 ## Collections
 
 Collections are special containers that allow keeping multiple elements in them. We will look at four types of collections: lists, tuples, sets, and dictionaries.
 
-&nbsp;
 
 ### Lists
 
@@ -532,7 +522,6 @@ This will produce the following output:
 [19, 23, 27, 29]
 ```
 
-&nbsp;
 
 ### Slicing
 
@@ -575,7 +564,6 @@ The list `last3` will contain the last three elements: `[3, 5, 7]` .
 
 <img class="img-fluid" src="img/python/b_slicing.svg">
 
-&nbsp;
 
 
 ### Tuples
@@ -645,7 +633,6 @@ After doing it, we get a new tuple that contains a new element, so when printing
 (1, 2, 3, 5, 7, 11, 13, 17)
 ```
 
-&nbsp;
 
 ### Set
 
@@ -713,7 +700,6 @@ When we execute it, it prints
 17
 ```
 
-&nbsp;
 
 
 ### Dictionaries
@@ -823,7 +809,6 @@ for k, v in words_to_numbers.items():
 
 It produces exactly the same output as the previous code.
 
-&nbsp;
 
 ### List comprehension
 
@@ -919,13 +904,11 @@ for (k, v) in words_to_numbers.items():
 > 
 > If in doubt, use "for" loops.
 
-&nbsp;
 
 ## Code reusability
 
 At some point, when we write a lot of code, we need to think about how to organize it better. We can achieve that by putting small reusable pieces of code inside functions or classes. Let’s take a look at how to do it.
 
-&nbsp;
 
 ### Functions
 
@@ -969,7 +952,6 @@ It’s also possible to provide the names of the arguments when invoking the fun
 print_numbers(max=10)
 ```
 
-&nbsp;
 
 ### Classes
 
@@ -1013,7 +995,6 @@ num_printer.print_numbers()
 
 This code produces the same output as the function from the previous section. 
 
-&nbsp;
 
 ### Importing code
 
@@ -1066,7 +1047,6 @@ num_printer = NumberPrinter(max=10)
 num_printer.print_numbers()
 ```
 
-&nbsp;
 
 ## Installing libraries
 
@@ -1103,7 +1083,6 @@ Finally, if we want to remove a package, we use `pip uninstall`
 pip uninstall numpy
 ```
 
-&nbsp;
 
 ## Python programs
 
@@ -1176,7 +1155,6 @@ As a result, we’ll see numbers from 0 to 5:
 5
 ```
 
-&nbsp;
 
 ## Summary
 
@@ -1190,7 +1168,6 @@ As a result, we’ll see numbers from 0 to 5:
 *   To install a Python package, we can use pip, which is a package manager for Python.
 
 
-&nbsp;
 
 
 ## Read next

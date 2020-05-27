@@ -7,8 +7,6 @@ layout: article
 
 ---
 
-# Introduction to NumPy
-
 <img class="img-fluid" src="img/numpy/numpy_logo.png">
 
 This article covers:
@@ -23,7 +21,6 @@ The easiest way to get them is to use [Anaconda](https://www.anaconda.com/).
 
 For a Python refresher, check [Introduction to Python](/article/python).
 
-&nbsp;
 
 ## NumPy
 
@@ -48,7 +45,6 @@ In the scientific Python community, it’s common to use an alias when importing
 
 We’ll start exploring NumPy from its core data structure: NumPy array. 
 
-&nbsp;
 
 ### NumPy arrays
 
@@ -209,7 +205,6 @@ Often we need to create an array of a certain size filled with numbers between s
 
 <center>0.0, 0.1, 0.2, ..., 0.9, 1.0</center>
 
-&nbsp;
 
 We can use `np.linspace` for doing it:
 
@@ -302,7 +297,6 @@ For uint we have four types: `uint8`, `uint16`, `uint32`, `uint64` of size 8, 16
 </table>
 
 
-&nbsp;
 
 In the case of floats, we have three types: `float16`, `float32,` and `float64`. The more bits we use, the more precise the float is. For most machine learning applications, `float32` is good enough: we typically don’t need great precision.
 You can check the full list of different dtypes in the [official documentation](https://docs.scipy.org/doc/numpy-1.13.0/user/basics.types.html).
@@ -319,7 +313,6 @@ zeros = np.zeros(10, dtype=np.uint8)
 
 <img class="img-fluid" src="img/numpy/zeros_uint.png">
 
-&nbsp;
 
 
 When we have an array with integers and assign a number outside of the range, the number is cut: only the least significant bits are kept. 
@@ -360,7 +353,6 @@ This code prints numbers from 0 till 4:
 4
 ```
 
-&nbsp;
 
 ### Two-dimensional NumPy arrays
 
@@ -512,7 +504,6 @@ array([[ 1, 10,  9],
        [ 7,  8,  9]])
 ```
 
-&nbsp;
 
 ### Randomly generated arrays
 
@@ -617,13 +608,11 @@ before shuffle [0 1 2 3 4]
 after shuffle  [2 3 0 4 1]
 ```
 
-&nbsp;
 
 ## NumPy operations
 
 NumPy comes with a wide range of operations that work with the NumPy arrays. In this section we’ll cover operations that we’ll need throughout the book.
 
-&nbsp;
 
 ### Element-wise operations
 
@@ -914,7 +903,6 @@ Which creates the following array:
 array([ True, True, True])
 ```
 
-&nbsp;
 
 ### Summarizing operations
 
@@ -941,7 +929,6 @@ Then `pred_sum` is the sum of all three elements, which is 1.02:
 
 <center>0.44 + 0.03 + 0.55 = 1.02</center>
 
-&nbsp;
 
 Other summarizing operations include `min`, `mean`, `max` and `std`:
 
@@ -1050,7 +1037,6 @@ When executing it, we get four numbers:
 array([1.02, 1.19, 1.12, 1.42])
 ```
 
-&nbsp;
 
 ### Sorting
 
@@ -1134,7 +1120,6 @@ So, the function `sort` sorts the array, while `argsort` produces an array of in
 
 <img class="img-fluid" src="img/numpy/c_numpy_argsort.svg">
 
-&nbsp;
 
 ### Reshaping and combining
 
@@ -1414,7 +1399,6 @@ array([[0, 2, 4],
        [1, 3, 5]])
 ```
 
-&nbsp;
 
 ### Slicing and filtering
 
@@ -1579,7 +1563,6 @@ array([[ 3,  4,  5],
        [ 9, 10, 11]])
 ```
 
-&nbsp;
 
 ## Summary
 

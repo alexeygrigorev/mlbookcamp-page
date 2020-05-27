@@ -7,8 +7,6 @@ layout: article
 
 ---
 
-## CRISP-DM
-
 Creating a machine learning system involves more than just selecting a model, training it, and applying it to new data. There are frameworks that help us organize machine learning projects.
 
 One such framework is CRISP-DM — the Cross-Industry Standard Process for Data Mining. It was invented quite long ago, in 1996, but in spite of its age, it’s still applicable to today’s problems.
@@ -37,7 +35,7 @@ Each phase covers typical tasks:
 *   Finally, in the deployment step, we deploy the model to the production environment.
 
 
-&nbsp;
+
 
 ## Example
 
@@ -48,7 +46,7 @@ Suppose we want to build a spam detection system: for each email we get, we want
 
 Let’s see how we can solve this problem with CRISP-DM.
 
-&nbsp;
+
 
 ### Business understanding step
 
@@ -63,7 +61,7 @@ In this step, we need to define the goal and how to measure it. The goal could b
 We may also decide that machine learning is not going to help and propose a simpler way to solve the problem.
 
 
-&nbsp;
+
 
 ### Data understanding step
 
@@ -78,7 +76,7 @@ If we conclude that the data we currently have is not sufficient, we need to fin
 
 When we have reliable data sources, we go to the data preparation step.
 
-&nbsp;
+
 
 ### Data preparation step
 
@@ -89,7 +87,7 @@ In this step, we clean the data, transforming it in such a way that it can be us
 
 After the data is prepared, we go to the modeling step.
 
-&nbsp;
+
 
 ### Modeling step
 
@@ -104,7 +102,7 @@ It’s very likely that in this step, we need to go back and adjust the way we p
 
 After we select the best possible model, we go to the evaluation step.
 
-&nbsp;
+
 
 ### Evaluation step
 
@@ -114,7 +112,7 @@ In this step, we check whether the model lives up to expectations. When we set t
 
 Nowadays, this step is tightly connected to the next step: deployment.
 
-&nbsp;
+
 
 ### Deployment step
 
@@ -125,7 +123,7 @@ The best way to evaluate a model is to battle-test it: roll it out to a fraction
 After the model is deployed, we use everything we learned in all the steps and go back to the first step to reflect on what we achieved (or didn’t achieve). We may realize that our initial goal was wrong and that what we actually want to do is not reduce the number of reports, but increase customer engagement by decreasing the amount of spam. So we go all the way back to the business understanding step to redefine our goal. Then, when we evaluate the model again, we use a different business metric to measure its success.
 
 
-&nbsp;
+
 
 ### Iterate
 

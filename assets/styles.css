@@ -62,3 +62,19 @@ blockquote {
   padding: 1rem;
   background-color: #d3d3d375;
 }
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.content-head {
+  margin-bottom: 1rem;
+}
+
+.content-main h2, .content-main h3, .content-main h4 {
+  margin-top: 3rem;
+}
+
+.img-border {
+  border: #CCC solid 1px;
+}
