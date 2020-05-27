@@ -8,8 +8,7 @@ layout: article
 ---
 
 
-## Introduction to Machine Learning
-for Analytics and Product Managers
+Introduction to Machine Learning for Analytics and Product Managers
 
 
 ### 1. Introduction
