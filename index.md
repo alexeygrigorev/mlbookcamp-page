@@ -32,7 +32,7 @@ to work as a data scientist or machine learning engineer.
     <li>Appendix A. Installation</li>
     <li>Appendix B. Introduction to Python</li>
     <li>Appendix C. Introduction to NumPy</li>
-    <li><span class="wip">Appendix D. Pandas *</span></li>
+    <li>Appendix D. Pandas</li>
     <li style="list-style-type:none;">* Not yet available</li>
 </ul>
 
