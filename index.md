@@ -24,7 +24,7 @@ to work as a data scientist or machine learning engineer.
     <li>3. Machine learning for classification</li>
     <li>4. Evaluation metrics for classification</li>
     <li>5. Deploying machine learning models</li>
-    <li><span class="wip">6. Decision trees and ensemble learning *</span></li>
+    <li>6. Decision trees and ensemble learning</li>
     <li><span class="wip">7. Neural networks and deep learning *</span></li>
     <li><span class="wip">8. Serving deep learning models *</span></li>
     <li><span class="wip">9. Working with texts *</span></li>
