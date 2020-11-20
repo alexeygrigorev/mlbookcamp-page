@@ -25,10 +25,9 @@ to work as a data scientist or machine learning engineer.
     <li>4. Evaluation metrics for classification</li>
     <li>5. Deploying machine learning models</li>
     <li>6. Decision trees and ensemble learning</li>
-    <li><span class="wip">7. Neural networks and deep learning *</span></li>
+    <li>7. Neural networks and deep learning</li>
     <li><span class="wip">8. Serving deep learning models *</span></li>
-    <li><span class="wip">9. Working with texts *</span></li>
-    <li><span class="wip">10. Getting training data *</span></li>
+    <li><span class="wip">9. Getting training data *</span></li>
     <li>Appendix A. Installation</li>
     <li>Appendix B. Introduction to Python</li>
     <li>Appendix C. Introduction to NumPy</li>
