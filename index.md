@@ -27,7 +27,7 @@ to work as a data scientist or machine learning engineer.
     <li>6. Decision trees and ensemble learning</li>
     <li>7. Neural networks and deep learning</li>
     <li>8. Serverless deep learning</li>
-    <li><span class="wip">9. Kubernetes and Kubeflow</span></li>
+    <li><span class="wip">9. Kubernetes and Kubeflow *</span></li>
     <li>Appendix A. Installation</li>
     <li>Appendix B. Introduction to Python</li>
     <li>Appendix C. Introduction to NumPy</li>
