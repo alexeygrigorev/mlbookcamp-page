@@ -1,6 +1,6 @@
 ---
 
-title: KFServing Tranformets
+title: KFServing Transformets
 layout: article
 draft: true
 
