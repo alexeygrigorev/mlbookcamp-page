@@ -21,12 +21,12 @@ def linear_regression(X, y):
     # adding the dummy column
     ones = np.ones(X.shape[0]) # A
     X = np.column_stack([ones, X]) # B
-    
+
     # normal equation formula
     XTX = X.T.dot(X) # C
     XTX_inv = np.linalg.inv(XTX) # D
     w = XTX_inv.dot(X.T).dot(y) # E
-    
+
     return w[0], w[1:] # F
 ```
 
