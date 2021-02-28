@@ -36,6 +36,8 @@ to work as a data scientist or machine learning engineer.
     <li style="list-style-type:none;">* Not yet available</li>
 </ul>
 
+The code for the book is available on Github: [mlbookcamp-code](https://github.com/alexeygrigorev/mlbookcamp-code){:target="_blank"}.
+
 
 ### Author
 
