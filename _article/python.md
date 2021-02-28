@@ -2,12 +2,12 @@
 
 title: Introduction to Python
 description: Get to know Python in 10 minutes!
-image: article/img/cover/python.jpg
+image: img/articles/cover/python.jpg
 layout: article
 
 ---
 
-<img class="img-fluid" src="img/python/python_logo.png">
+<img class="img-fluid" src="/img/articles/python/python_logo.png">
 
 This article covers the basics of Python:
 
@@ -52,7 +52,7 @@ It prints:
 To execute the code, you can put each code snippet in a cell of Jupyter Notebook and then execute it: press the “Run” button, or use “Shift+Enter” hotkey.
 
 
-<img class="img-fluid" src="img/python/code1.png">
+<img class="img-fluid" src="/img/articles/python/code1.png">
 
 
 When we pass multiple arguments to `print`, like in the example above, it adds a space between each arguments when printing.
@@ -562,7 +562,7 @@ last3 = numbers[2:]
 The list `last3` will contain the last three elements: `[3, 5, 7]` .
 
 
-<img class="img-fluid" src="img/python/b_slicing.svg">
+<img class="img-fluid" src="/img/articles/python/b_slicing.svg">
 
 
 

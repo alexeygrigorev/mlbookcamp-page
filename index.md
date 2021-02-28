@@ -10,7 +10,7 @@ layout: home
 ---
 
 Machine Learning Bookcamp by Alexey Grigorev<br/>
-Publication: Fall 2020 (expected)
+Publication: Summer 2021 (expected)
 
 Machine Learning Bookcamp: learn machine learning by doing projects and get the skills needed
 to work as a data scientist or machine learning engineer.

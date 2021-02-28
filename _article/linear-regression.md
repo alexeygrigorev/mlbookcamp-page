@@ -3,7 +3,7 @@
 title: Linear Regression
 layout: article
 math: true
-
+draft: true
 ---
 
 ## Normal Equation

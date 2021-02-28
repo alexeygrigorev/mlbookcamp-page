@@ -2,7 +2,7 @@
 
 title: Creating an AWS Account
 description: Instruction for creating an account on AWS
-image: article/img/cover/aws-registration.jpg
+image: img/articles/cover/aws-registration.jpg
 layout: article
 
 ---
@@ -22,7 +22,7 @@ If you don’t have an account yet, you’re eligible for the free tier: you hav
 
 The first thing you need to do is create an account. To do this, go to [https://aws.amazon.com](https://aws.amazon.com) and click the “Create an AWS Account” button:
 
-<img class="img-fluid" src="img/aws/registration.png">
+<img class="img-fluid" src="/img/articles/aws/registration.png">
 
 > **Note**:
 > The screenshots were taken in October 2019. It’s possible that the content on the AWS web site and the appearance of the management console changed since then.
@@ -34,7 +34,7 @@ Follow the instructions and fill in the required details. It should be a straigh
 
 Once you’ve completed the registration and verified your account, you should see the main page — the AWS Management Console:
 
-<img class="img-fluid" src="img/aws/console.png">
+<img class="img-fluid" src="/img/articles/aws/console.png">
 
 
 Congratulations! You’ve just created a root account. However, it’s not advised to use the root account for anything: it has very broad permissions that allow you to do anything and everything on your AWS account. Typically, you use the root account to create less powerful accounts and then use them for your day-to-day tasks.
@@ -44,24 +44,24 @@ Congratulations! You’ve just created a root account. However, it’s not advis
 
 To create such an account, type “IAM” in the “Find Services” box and click on that item in the drop-down list. Select “Users” in the menu on the left, and click “Add User”:
 
-<img class="img-fluid img-border" src="img/aws/iam.png">
+<img class="img-fluid img-border" src="/img/articles/aws/iam.png">
 
 
 Now you just need to follow the instructions and answer the questions. At some point, it will ask about an access type: you’ll need to select both “Programmatic Access” and “AWS Management Console Access”. We will use both the command-line interface (CLI) and the web interface for working with AWS:
 
 
-<img class="img-fluid img-border" src="img/aws/user.png">
+<img class="img-fluid img-border" src="/img/articles/aws/user.png">
 
 
 In the “Set Permissions” step, you specify what this new user will be able to do. You want the user to have full privileges, so select “Attach Existing Policies Directly” at the top and choose “AdministratorAccess” in the list of policies:
 
-<img class="img-fluid img-border" src="img/aws/user-permissions.png">
+<img class="img-fluid img-border" src="/img/articles/aws/user-permissions.png">
 
 As the next step, the system will ask you about tags — you can safely ignore these for now. Tags are needed for companies where multiple people work on the same AWS account, mostly for expense management purposes, so they shouldn’t be a concern for the projects you’ll do in this book. 
 
 At the end, when you’ve successfully created the new user, the wizard will suggest that you download the credentials:
 
-<img class="img-fluid img-border" src="img/aws/user-credentials.png">
+<img class="img-fluid img-border" src="/img/articles/aws/user-credentials.png">
 
 
 Download them and keep them safe: we’ll need them to use the account programmatically with AWC CLI (command line interface).

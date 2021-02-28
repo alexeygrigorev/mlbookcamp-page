@@ -2,12 +2,12 @@
 
 title: Introduction to NumPy
 description: Get to know NumPy in 10 minutes!
-image: article/img/cover/numpy.jpg
+image: img/articles/cover/numpy.jpg
 layout: article
 
 ---
 
-<img class="img-fluid" src="img/numpy/numpy_logo.png">
+<img class="img-fluid" src="/img/articles/numpy/numpy_logo.png">
 
 This article covers:
 
@@ -60,7 +60,7 @@ zeros = np.zeros(10)
 
 This creates an array with ten zero elements:
 
-<img class="img-fluid" src="img/numpy/zeros.png">
+<img class="img-fluid" src="/img/articles/numpy/zeros.png">
 
 Likewise, we can create an array with ones using the `np.ones` function:
 
@@ -91,7 +91,7 @@ array = np.repeat(0.0, 10)
 This code produces the same result as the code above:
 
 
-<img class="img-fluid" src="img/numpy/fill_repeat.png">
+<img class="img-fluid" src="/img/articles/numpy/fill_repeat.png">
 
 
 While in this example both functions produce the same code, `np.repeat` is actually more powerful. For example, we can use it to create an array where multiple elements are repeated one after another:
@@ -105,7 +105,7 @@ array = np.repeat([0.0, 1.0], 5)
 It creates an array of size 10 where the number 0 is repeated 5 times, and then the number 1 is repeated 5 times:
 
 
-<img class="img-fluid" src="img/numpy/repeat_2.png">
+<img class="img-fluid" src="/img/articles/numpy/repeat_2.png">
 
 
 We can even be more flexible and specify how many times each element should be repeated:
@@ -225,7 +225,7 @@ This function takes three parameters:
 This code produces 11 numbers from 0 till 1:
 
 
-<img class="img-fluid" src="img/numpy/linspace.png">
+<img class="img-fluid" src="/img/articles/numpy/linspace.png">
 
 
 Usual Python lists can contain elements of any type. This is not the case for NumPy arrays: all elements of an array must have the same type. These types are called _dtypes_.
@@ -311,7 +311,7 @@ When creating an array, we can specify the dtype. For example, when using `np.ze
 zeros = np.zeros(10, dtype=np.uint8)
 ```
 
-<img class="img-fluid" src="img/numpy/zeros_uint.png">
+<img class="img-fluid" src="/img/articles/numpy/zeros_uint.png">
 
 
 
@@ -370,7 +370,7 @@ zeros = np.zeros((5, 2), dtype=np.float32)
 
 We use a tuple “(5, 2)”, so it creates an array of zeros with 5 rows and 2 columns:
 
-<img class="img-fluid" src="img/numpy/zeros_2d.png">
+<img class="img-fluid" src="/img/articles/numpy/zeros_2d.png">
 
 
 In the same way, we can use `np.ones` or `np.fill` &ndash; instead of a single number, we put in a tuple.
@@ -771,7 +771,7 @@ square = pred ** 2
 
 Both approaches lead to the same results
 
-<img class="img-fluid" src="img/numpy/multiplication.png">
+<img class="img-fluid" src="/img/articles/numpy/multiplication.png">
 
 
 Other useful element-wise operations that we might need for machine learning applications are exponent, logarithm and square root:
@@ -851,7 +851,7 @@ array([ True, False, True])
 ```
 
 
-<img class="img-fluid" src="img/numpy/boolean.png">
+<img class="img-fluid" src="/img/articles/numpy/boolean.png">
 
 Finally, we can apply logical operations &ndash; like logical “and” (“&”) and “or” (“|”)  &ndash; to boolean NumPy arrays.
 Let’s again generate two random arrays:
@@ -1019,7 +1019,7 @@ array([0.44, 0.62, 0.55])
 
 In NumPy, “`axis=1`” means applying it rows and “`axis=0`” means applying it to columns:
 
-<img class="img-fluid" src="img/numpy/c_numpy_axis.svg">
+<img class="img-fluid" src="/img/articles/numpy/c_numpy_axis.svg">
 
 
 Other operations &ndash; `sum`, `min`, `mean`, `std` and many others &ndash; also can take axis as an argument. For example, we can easily calculate the sum of elements of every row:
@@ -1118,7 +1118,7 @@ array([0.03, 0.44, 0.44, 0.55])
 
 So, the function `sort` sorts the array, while `argsort` produces an array of indices that sort the array:
 
-<img class="img-fluid" src="img/numpy/c_numpy_argsort.svg">
+<img class="img-fluid" src="/img/articles/numpy/c_numpy_argsort.svg">
 
 
 ### Reshaping and combining

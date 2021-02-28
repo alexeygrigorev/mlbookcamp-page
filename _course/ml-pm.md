@@ -2,7 +2,7 @@
 
 title: Introduction to Machine Learning
 description: Introduction to Machine Learning for Analytics and Product Managers
-image: course/img/cover/ml-pm.jpg
+image: img/courses/cover/ml-pm.jpg
 layout: article
 
 ---
