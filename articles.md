@@ -16,7 +16,7 @@ These articles are based on the core concepts from the book
 
 * Supervised Machine Learning (coming soon)
 * [CRISP-DM: The methodology for machine learning projects](/article/crisp-dm)
-* Model selection  (coming soon)
+* Model selection (coming soon)
 
 #### Prerequisites (optional
 
@@ -70,6 +70,12 @@ These articles are based on the core concepts from the book
 * Containerization with Docker (coming soon)
 * Deploying models with AWS Elastic Beanstalk (coming soon)
 
+
+#### Kubernetes and Kubeflow
+
+* [Creating an EKS Cluster](/article/eks)
+* [Creating a KFServing Cluster on EKS](/article/kfserving-eks-install)
+* [KFServing Transformers](/article/kfserving-transformers)
 
 ### Subscribe
 

@@ -1,0 +1,5 @@
+{
+    "title": "Kubeflow",
+    "subtitle": "Creating a KFServing Cluster on EKS",
+    "output": "../img/articles/cover/kfserving-eks-install.jpg"
+}

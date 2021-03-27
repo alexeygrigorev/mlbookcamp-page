@@ -19,6 +19,12 @@ body, html {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+}
+
+.content-main > p > img {
+  margin-top: 2em;
+  margin-bottom: 2em; 
 }
 
 @media (max-width: 960px) {
@@ -77,4 +83,8 @@ blockquote p:last-child {
 
 .img-border {
   border: #CCC solid 1px;
+}
+
+code {
+  color: black;
 }
