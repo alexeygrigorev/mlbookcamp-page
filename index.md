@@ -18,21 +18,22 @@ to work as a data scientist or machine learning engineer.
 
 ### Table of Contents
 
-* 1. Introduction to machine learning
-* 2. Machine learning for regression
-* 3. Machine learning for classification
-* 4. Evaluation metrics for classification
-* 5. Deploying machine learning models
-* 6. Decision trees and ensemble learning
-* 7. Neural networks and deep learning
-* 8. Serverless deep learning
-* 9. Kubernetes and Kubeflow
-* Appendix A. Installation
-* Appendix B. Introduction to Python
-* Appendix C. Introduction to NumPy
-* Appendix D. Introduction to Pandas
-* Appendix E. AWS SageMaker
-
+<ul>
+<li>1. Introduction to machine learning</li>
+<li>2. Machine learning for regression</li>
+<li>3. Machine learning for classification</li>
+<li>4. Evaluation metrics for classification</li>
+<li>5. Deploying machine learning models</li>
+<li>6. Decision trees and ensemble learning</li>
+<li>7. Neural networks and deep learning</li>
+<li>8. Serverless deep learning</li>
+<li>9. Kubernetes and Kubeflow</li>
+<li>Appendix A. Installation</li>
+<li>Appendix B. Introduction to Python</li>
+<li>Appendix C. Introduction to NumPy</li>
+<li>Appendix D. Introduction to Pandas</li>
+<li>Appendix E. AWS SageMaker</li>
+</ul>
 
 The code for the book is available on Github: [mlbookcamp-code](https://github.com/alexeygrigorev/mlbookcamp-code){:target="_blank"}.
 
@@ -66,7 +67,7 @@ There are some courses based on the book. They are now under active development
 ### Talk about the book
 
 If you'd like to talk about the book with others or ask author any question, 
-join [DataTalks.Club](https://datatalks.club) -- it's a community of people who love data.
+join [DataTalks.Club](https://datatalks.club){:target="_blank"} -- it's a community of people who love data.
 To talk about the book, join `#ml-bookcamp` channel. 
 
 
