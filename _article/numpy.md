@@ -1017,7 +1017,7 @@ array([0.44, 0.62, 0.55])
 ```
 
 
-In NumPy, “`axis=1`” means applying it rows and “`axis=0`” means applying it to columns:
+In NumPy, “`axis=1`” means applying it to rows and “`axis=0`” means applying it to columns:
 
 <img class="img-fluid" src="/img/articles/numpy/c_numpy_axis.svg">
 
@@ -1132,7 +1132,7 @@ rng.shape
 ```
 
 
-The share of `rng `is “(12,)”, which means that it’s a one-dimensional array of length 12. Since we used `np.arange` to create the array, it contains the numbers from 0 till 11 (inclusive):
+The shape of `rng `is “(12,)”, which means that it’s a one-dimensional array of length 12. Since we used `np.arange` to create the array, it contains the numbers from 0 till 11 (inclusive):
 
 
 ```
