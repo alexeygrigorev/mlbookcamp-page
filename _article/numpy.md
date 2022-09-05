@@ -1422,7 +1422,7 @@ array([[ 0,  1,  2],
 ```
 
 
-We can access parts of this matrix by using slicing. For example, we can get the first free rows using the range operator (“:”):
+We can access parts of this matrix by using slicing. For example, we can get the first three rows using the range operator (“:”):
 
 
 ```python
